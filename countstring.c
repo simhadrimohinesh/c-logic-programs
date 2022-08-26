@@ -2,7 +2,7 @@
 int main()
 {
     char s[100];
-    int uppercount,lowercount,numcount;
+    int uppercount=0,lowercount=0,numcount=0;
     printf("Enter string:\n");
     scanf("%s",s);
     for(int i=0;s[i]!='\0';i++)
