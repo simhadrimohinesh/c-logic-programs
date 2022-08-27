@@ -1,10 +1,9 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 #include<string.h>
-int main() {
-    // Write C code here
-   char str1[50],str2[50];
-   printf("enter strings:\n");
+int main()
+{
+    char str1[50],str2[50];
+    printf("enter strings:\n");
     scanf("%s",str1);
     scanf("%s",str2);
     int len1=strlen(str1);
